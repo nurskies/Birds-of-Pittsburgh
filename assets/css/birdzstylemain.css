@@ -1,0 +1,278 @@
+*{
+
+}
+
+body{
+    font-family: 'Delius', cursive;
+
+}
+
+h1{
+    font-family: 'Delius Unicase', cursive;
+}
+h2{
+    font-family: 'Delius Unicase', cursive;
+}
+
+
+
+a{
+    text-decoration: underline;
+    color: teal;
+
+}
+
+h2{
+
+}
+
+.summaryfacts{
+  float: left;
+  max-width: calc(100vw - 330px);
+}
+
+#bubbleText{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 10%;
+    font-size: x-large;
+}
+
+.centerbubble{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 50%;
+}
+
+#bubble{
+  position: relative;
+  display: inline-block;
+}
+
+#bubbleimg{
+  min-width: 300px;
+}
+
+.fontbigger{
+    font-size: x-large;
+}
+
+/*splash page*/
+.splash{
+    text-align: center;
+}
+
+.dancingbird{
+  background-color: #9dc4c4;
+}
+
+/*splash page font*/
+.welcome{
+    padding-top: 20px;
+    font-weight:bold;
+    font-size: xx-large;
+}
+
+/*spudgie gif*/
+.spudgiemain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/*Hover on enter from hover.css--adjustments made*/
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/* Bounce To Top */
+.hvr-bounce-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+/*bounce from hover.css*/
+.hvr-bounce-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #9dc4c4;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-top:hover, .hvr-bounce-to-top:focus, .hvr-bounce-to-top:active {
+  color: teal;
+}
+.hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/*from animista.net menu animation*/
+.shadow-drop-bottom:hover {
+    webkit-animation: shadow-drop-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: shadow-drop-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+\
+@-webkit-keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: -4px 0 -4px 0 rgba(255, 255, 255, 1);
+  }
+}
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 5px  #255;
+    box-shadow: 3px 0 3px 0 #000 rgba(255, 255, 255, 1);
+  }
+}
+
+.middle{
+    width:800px;
+    margin:0 auto;
+
+}
+/*hover-animate*/
+.static{
+  position: absolute;
+}
+
+
+.static:hover {
+  opacity:0;
+}
+
+
+.active{
+    display: inline-block;
+}
+
+.row{
+  display: inline-block;
+
+
+}
+/*dialogue bird box*/
+
+.dialoguebird{
+  -webkit-transform: scale(0.7, 0.7);
+  -webkit-transform-origin-x: 0;
+  -webkit-transform-origin-y: 0;
+
+}
+
+
+.container{
+  display: inline-block;
+  padding-bottom:
+}
+
+
+
+/*birdlist*/
+
+.sidebarbirds{
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    width: 275px;
+    height: 511px;
+    overflow-y: scroll;
+    float: left;
+    border: 4px solid black;
+    padding: 0 0 13px 0;
+
+}
+.sidebarbirds img{
+  max-width: 300px;
+  max-height: 200px;
+  margin: 10px 0 10px 0;
+
+}
+
+
+
+/*about,etc.*/
+.rightmenu{
+  float: right;
+  font-size: larger;
+  padding-right: 10px;
+  font-weight: bolder;
+
+}
+.mainimageanddesc{
+    height: 500px;
+ /*   background: #9dc4c4;*/
+
+    max-width: calc(100vw - 400px);
+    margin: 0 0 0 20px;
+    padding: 20px 50px 10px 20px;
+    overflow-y: scroll;
+}
+
+#image{
+  width: 30%;
+  height: auto;
+  overflow: auto;
+  float: left;
+  padding: 20 20px 0 0;
+
+}
+
+.hidden{
+        display: none;
+}
+
+.invisible{
+  visibility: hidden;
+  padding-right: 500px;
+
+}
+
+.show{
+    display: block;
+}
