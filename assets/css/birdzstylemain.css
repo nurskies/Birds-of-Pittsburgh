@@ -210,7 +210,7 @@ h2{
 
 
 .container{
-  display: inline-block;
+  display: inline-flex;
 }
 
 
@@ -221,7 +221,7 @@ h2{
     position: relative;
     display: block;
     flex-wrap: wrap;
-    width: 200px;
+    width: 275px;
     height: 100vw;
     overflow-y: scroll;
     float: left;
